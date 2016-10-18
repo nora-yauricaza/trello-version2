@@ -112,7 +112,6 @@ window.addEventListener("load", function(){
 			e.preventDefault();
 			contenedorTextArea.style.display = "none";
 			imprimirTarjeta(textArea, tarjeta, contenedorList, addTarjeta);
-
 		});
 	}
 
