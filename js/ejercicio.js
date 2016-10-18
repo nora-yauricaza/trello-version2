@@ -104,7 +104,6 @@ window.addEventListener("load", function(){
 		var tajeta = document.createElement("div");
 		contenedorList.insertBefore(tajeta, addTarjeta);
 
-
 		botonTarjetaAdd.textContent="Añadir";
 		botonTarjetaGetOut.classList.add("icon-cross");
 		botonTarjetaAdd.addEventListener("click",function(e){
