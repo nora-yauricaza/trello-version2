@@ -101,26 +101,26 @@ window.addEventListener("load", function(){
 		contenedorTextArea.appendChild(botonTarjetaGetOut);
 		contenedorList.appendChild(contenedorTextArea);
 
-		var tajeta = document.createElement("div");
-		contenedorList.insertBefore(tajeta, addTarjeta);
+		var tarjeta = document.createElement("div");
+		contenedorList.insertBefore(tarjeta, addTarjeta);
 
 		botonTarjetaAdd.textContent="Añadir";
 		botonTarjetaGetOut.classList.add("icon-cross");
 		botonTarjetaAdd.addEventListener("click",function(e){
 			e.preventDefault();
 			contenedorTextArea.style.display = "none";
-			imprimirTarjeta(textArea, tajeta, contenedorList, addTarjeta);
+			imprimirTarjeta(textArea, tarjeta, contenedorList, addTarjeta);
 
 		});
 	}
 
-	function imprimirTarjeta(textArea, tajeta, contenedorList, addTarjeta){
+	function imprimirTarjeta(textArea, tarjeta, contenedorList, addTarjeta){
 		var nameTextArea=document.createElement("div");
 
 		nameTextArea.innerText = textArea.value;
 		nameTextArea.classList.add("white");
 
-		tajeta.appendChild(nameTextArea);
+		tarjeta.appendChild(nameTextArea);
 		addTarjeta.style.display = "inline-block";
 	}
 
