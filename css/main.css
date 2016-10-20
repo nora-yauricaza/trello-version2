@@ -2,11 +2,10 @@ body{
 	background-color: #0079BF;
 }
 
-h1{
-  color: #fff;
-  background-color: blue;
-  padding: 15px 45px;
-  margin: 15px 0px;
+.logo{
+  position: fixed;
+  width: 100%;
+  height: 120px
 }
 
 p{
@@ -15,9 +14,14 @@ p{
   font-size: 16px;
 }
 
+section{
+  white-space: nowrap;
+}
+
 .block {
   display: inline-block;
   width: 20%;
+  margin-top: 100px;
 }
 
 .listaAdd{
@@ -29,6 +33,11 @@ p{
   margin-left: 26px;
   border-radius: 3px;
   display: inline-block;
+  white-space: nowrap;
+}
+
+textarea {
+  display: block;
 }
 
 .listaAdd:hover{
@@ -48,7 +57,7 @@ p{
   background-color: #E2E4E6;
   color: black;
   border-radius: 3px;
-  padding: 25px;
+  padding: 18px;
   margin: 5px;
 }
 

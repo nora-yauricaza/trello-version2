@@ -124,6 +124,5 @@ window.addEventListener("load", function(){
 		tarjeta.appendChild(nameTextArea);
 		addTarjeta.style.display = "inline-block";
 	}
-
 });
 
