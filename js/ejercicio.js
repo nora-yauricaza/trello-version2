@@ -110,7 +110,6 @@ window.addEventListener("load", function(){
 			e.preventDefault();
 			contenedorTextArea.style.display = "none";
 			imprimirTarjeta(textArea, tarjeta, contenedorList, addTarjeta);
-
 		});
 	}
 
@@ -123,6 +122,24 @@ window.addEventListener("load", function(){
 		tarjeta.appendChild(nameTextArea);
 		addTarjeta.style.display = "inline-block";
 	}
+	
+	// function empiezaMover(e) {
+	// 	e.dataTransfer.setData("text", this.id);
+	// 	this.style.opacity = "0.9";
+	// 	this.style.background = null;
+	// 	this.classList.add("divCardOver");
+	// }
+
+	// function MoverSobre(e) {
+	// 	e.preventDefault();
+	// }
+
+	// function terminaMover(e) {
+	// 	this.style.opacity = null;
+	// 	this.style.background="white";
+	// 	this.classList.add("animated", "swing");
+	// }
+	
 
 });
 
